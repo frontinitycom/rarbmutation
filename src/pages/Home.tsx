@@ -82,6 +82,15 @@ const salzburgText = `Ein unvergessliches Wochenende liegt hinter uns. Bei der M
 
 const homeNews = [
   {
+    img: newsNewspaper.url,
+    objectPosition: "center",
+    cat: "Press",
+    date: "September 2026",
+    href: LINKEDIN_URL,
+    en: { t: "What a milestone for Simon!", e: newspaperText },
+    de: { t: "Was für ein Meilenstein für Simon!", e: newspaperText },
+  },
+  {
     img: newsSalzburg.url,
     objectPosition: "center",
     cat: "Community",
