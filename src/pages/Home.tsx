@@ -314,6 +314,7 @@ export default function Home({ lang }: { lang: Lang }) {
                   </div>
                 </article>
               </Reveal>
+              </div>
             ))}
           </div>
         </div>
