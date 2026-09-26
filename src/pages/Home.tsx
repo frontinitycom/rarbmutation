@@ -58,25 +58,31 @@ Stay tuned for exciting updates coming soon!
 
 #HappyNewYear #CureMCOPS12 #ACureforSophiaandFriends #ACureforSienna`;
 
-const newspaperText = `Was für ein Meilenstein für Simon!
+const newspaperText = `What a milestone for Simon!
 
-Die Salzburger Nachrichten haben einen bewegenden Beitrag über ihn und seine Therapieentwicklung veröffentlicht. Wir sind so stolz auf Simon, der trotz aller schweren Herausforderungen jeden Tag so viel Stärke zeigt. 
+The Salzburger Nachrichten have published a moving article about him and his therapy development. We are so proud of Simon, who shows so much strength every day despite all the serious challenges.
 
-Um den finalen Schritt zu einer maßgeschneiderten RNA-Therapie gehen zu können, fehlen uns noch die nötigen finanziellen Mittel. Da es sich um einen extrem seltenen Gendefekt handelt, sind wir auf Spenden angewiesen, um diese Therapie zu finanzieren. Sei Teil dieser lebensverändernden Chance für Simon! 
+To take the final step towards a customized RNA therapy, we still lack the necessary funds. Since this is an extremely rare genetic defect, we rely on donations to finance this therapy. Be part of this life-changing opportunity for Simon!
 
-Teilt diesen Beitrag, verbreitet Simons Geschichte und unterstützt uns. Gemeinsam können wir ihm eine bessere Zukunft ermöglichen. 
+Share this post, spread Simon's story and support us. Together we can give him a better future.
 
-Mehr Informationen findet ihr auf unserer Homepage: 
+You can find more information on our homepage:
 
 https://www.rarbmutation.org
 
-Hier könnt ihr spenden: 
+This is where you can donate:
 
-https://www.rarbmutation.org/donate 
+https://www.rarbmutation.org/donate
 
 #curemcops12 #selteneerkrankung #philanthropie`;
 
-const salzburgText = `Ein unvergessliches Wochenende liegt hinter uns. Bei der MCOPS12-Konferenz in Salzburg kamen 11 betroffene Familien aus der ganzen Welt mit engagierten ÄrztInnen und ForscherInnen zusammen. Es war unglaublich berührend und schön zu sehen, dass wir alle an einem Strang ziehen, um eine Therapie für diese seltene Erkrankung zu finden. Die gegenseitige Unterstützung und der unermüdliche Einsatz aller Beteiligten geben uns unendlich viel Hoffnung für die Zukunft. Ein riesiges DANKE an jede Familie, die den Weg auf sich genommen hat, und an alle Expert*innen für ihre wertvolle Arbeit! Gemeinsam sind wir stark
+const salzburgText = `What an unforgettable weekend! 💙
+
+This past weekend, 11 MCOPS12 families from around the world came together in Salzburg, alongside dedicated clinicians and researchers, for our MCOPS12 conference.
+It was incredibly moving to see so many people united by a shared goal: finding a therapy for this ultra-rare condition. Watching families, doctors, and scientists connect, learn from one another, and support each other reminded us that we are not alone in this journey.
+
+A huge thank you to every family who traveled from near and far, and to all the experts who generously shared their time, knowledge, and dedication.
+Together, we are stronger. Together, we will keep moving forward. 💙
 
 #curemcops12 #acureforsienna #acureforsophiaandfriends #MCOPS12`;
 
@@ -86,7 +92,7 @@ const homeNews = [
     objectPosition: "center",
     cat: "Press",
     date: "September 2026",
-    href: LINKEDIN_URL,
+    href: "https://www.linkedin.com/posts/cure-mcops12_sn-eltern-k%C3%A4mpfen-um-therapie-f%C3%BCr-ihren-activity-7507565398607740928-u3C4",
     en: { t: "What a milestone for Simon!", e: newspaperText },
     de: { t: "Was für ein Meilenstein für Simon!", e: newspaperText },
   },
@@ -95,7 +101,7 @@ const homeNews = [
     objectPosition: "center",
     cat: "Community",
     date: "September 2026",
-    href: LINKEDIN_URL,
+    href: "https://www.linkedin.com/posts/mcops12-raredisease-patientadvocacy-ugcPost-7506489004176048128-VsZF/",
     en: { t: "MCOPS12 Conference in Salzburg", e: salzburgText },
     de: { t: "MCOPS12-Konferenz in Salzburg", e: salzburgText },
   },
