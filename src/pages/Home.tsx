@@ -13,6 +13,7 @@ import heroFairyLights from "@/assets/simon-fairy-lights.jpg";
 import storyPhoto from "@/assets/simon-pony.jpg";
 import newsAsoBreakthrough from "@/assets/news-aso-breakthrough.png.asset.json";
 import newsSalzburg from "@/assets/news-salzburg-conference.jpg.asset.json";
+import newsNewspaper from "@/assets/news-salzburger-nachrichten.jpg.asset.json";
 
 const LINKEDIN_URL = "https://www.linkedin.com/company/cure-mcops12/";
 
