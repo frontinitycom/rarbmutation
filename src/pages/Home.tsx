@@ -12,8 +12,7 @@ import heroBeyond from "@/assets/simon-and-beyond.jpg";
 import heroFairyLights from "@/assets/simon-fairy-lights.jpg";
 import storyPhoto from "@/assets/simon-pony.jpg";
 import newsAsoBreakthrough from "@/assets/news-aso-breakthrough.png.asset.json";
-import newsRunForRare from "@/assets/news-run-for-rare-couple.png.asset.json";
-import newsHappyNewYear from "@/assets/news-happy-new-year-2026.png.asset.json";
+import newsSalzburg from "@/assets/news-salzburg-conference.jpg.asset.json";
 
 const LINKEDIN_URL = "https://www.linkedin.com/company/cure-mcops12/";
 
@@ -58,7 +57,20 @@ Stay tuned for exciting updates coming soon!
 
 #HappyNewYear #CureMCOPS12 #ACureforSophiaandFriends #ACureforSienna`;
 
+const salzburgText = `Ein unvergessliches Wochenende liegt hinter uns. Bei der MCOPS12-Konferenz in Salzburg kamen 11 betroffene Familien aus der ganzen Welt mit engagierten ÄrztInnen und ForscherInnen zusammen. Es war unglaublich berührend und schön zu sehen, dass wir alle an einem Strang ziehen, um eine Therapie für diese seltene Erkrankung zu finden. Die gegenseitige Unterstützung und der unermüdliche Einsatz aller Beteiligten geben uns unendlich viel Hoffnung für die Zukunft. Ein riesiges DANKE an jede Familie, die den Weg auf sich genommen hat, und an alle Expert*innen für ihre wertvolle Arbeit! Gemeinsam sind wir stark
+
+#curemcops12 #acureforsienna #acureforsophiaandfriends #MCOPS12`;
+
 const homeNews = [
+  {
+    img: newsSalzburg.url,
+    objectPosition: "center",
+    cat: "Community",
+    date: "September 2026",
+    href: LINKEDIN_URL,
+    en: { t: "MCOPS12 Conference in Salzburg", e: salzburgText },
+    de: { t: "MCOPS12-Konferenz in Salzburg", e: salzburgText },
+  },
   {
     img: newsAsoBreakthrough.url,
     objectPosition: "center 20%",
@@ -72,35 +84,6 @@ const homeNews = [
     de: {
       t: "BREAKING NEWS: Sechs ASO-Kandidaten für Simon identifiziert",
       e: asoBreakingText,
-    },
-  },
-  {
-    img: newsRunForRare.url,
-    cat: "Community",
-    date: "March 2026",
-    href: LINKEDIN_URL,
-    en: {
-      t: "RUN FOR RARE – RUN FOR SIMON",
-      e: runForRareText,
-    },
-    de: {
-      t: "RUN FOR RARE – RUN FOR SIMON",
-      e: runForRareText,
-    },
-  },
-  {
-    img: newsHappyNewYear.url,
-    objectPosition: "center top",
-    cat: "Community",
-    date: "January 2026",
-    href: LINKEDIN_URL,
-    en: {
-      t: "Happy New Year from Cure MCOPS12!",
-      e: happyNewYearText,
-    },
-    de: {
-      t: "Happy New Year von Cure MCOPS12!",
-      e: happyNewYearText,
     },
   },
 ];
@@ -296,7 +279,8 @@ export default function Home({ lang }: { lang: Lang }) {
           </Reveal>
           <div className="grid md:grid-cols-3 gap-7">
             {homeNews.map((post, idx) => (
-              <Reveal key={idx} delay={idx * 150}>
+              <div key={idx} className={idx === 0 && homeNews.length === 2 ? "md:col-start-2" : ""}>
+              <Reveal delay={idx * 150}>
                 <article className="group bg-card rounded-3xl overflow-hidden border border-border hover:shadow-[var(--shadow-card)] hover:-translate-y-1 hover:border-teal transition-all duration-300 h-full flex flex-col">
                   {post.img ? (
                     <div className="overflow-hidden">
@@ -330,6 +314,7 @@ export default function Home({ lang }: { lang: Lang }) {
                   </div>
                 </article>
               </Reveal>
+              </div>
             ))}
           </div>
         </div>
