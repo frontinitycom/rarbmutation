@@ -58,6 +58,24 @@ Stay tuned for exciting updates coming soon!
 
 #HappyNewYear #CureMCOPS12 #ACureforSophiaandFriends #ACureforSienna`;
 
+const newspaperText = `Was für ein Meilenstein für Simon!
+
+Die Salzburger Nachrichten haben einen bewegenden Beitrag über ihn und seine Therapieentwicklung veröffentlicht. Wir sind so stolz auf Simon, der trotz aller schweren Herausforderungen jeden Tag so viel Stärke zeigt. 
+
+Um den finalen Schritt zu einer maßgeschneiderten RNA-Therapie gehen zu können, fehlen uns noch die nötigen finanziellen Mittel. Da es sich um einen extrem seltenen Gendefekt handelt, sind wir auf Spenden angewiesen, um diese Therapie zu finanzieren. Sei Teil dieser lebensverändernden Chance für Simon! 
+
+Teilt diesen Beitrag, verbreitet Simons Geschichte und unterstützt uns. Gemeinsam können wir ihm eine bessere Zukunft ermöglichen. 
+
+Mehr Informationen findet ihr auf unserer Homepage: 
+
+https://www.rarbmutation.org
+
+Hier könnt ihr spenden: 
+
+https://www.rarbmutation.org/donate 
+
+#curemcops12 #selteneerkrankung #philanthropie`;
+
 const salzburgText = `Ein unvergessliches Wochenende liegt hinter uns. Bei der MCOPS12-Konferenz in Salzburg kamen 11 betroffene Familien aus der ganzen Welt mit engagierten ÄrztInnen und ForscherInnen zusammen. Es war unglaublich berührend und schön zu sehen, dass wir alle an einem Strang ziehen, um eine Therapie für diese seltene Erkrankung zu finden. Die gegenseitige Unterstützung und der unermüdliche Einsatz aller Beteiligten geben uns unendlich viel Hoffnung für die Zukunft. Ein riesiges DANKE an jede Familie, die den Weg auf sich genommen hat, und an alle Expert*innen für ihre wertvolle Arbeit! Gemeinsam sind wir stark
 
 #curemcops12 #acureforsienna #acureforsophiaandfriends #MCOPS12`;
